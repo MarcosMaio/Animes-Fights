@@ -1,0 +1,444 @@
+[
+    
+    {      
+        "anime": "Dragon Ball",
+        "personagem": "Son Goku",
+        "imagem": "https://i.pinimg.com/564x/e1/38/dd/e138dd122a097837c8cd5562c7ba62b9.jpg",
+        "id": 1,
+        "titulo":"Dragon Ball Super - Goku vs Jiren",
+        "capa": "https://i.pinimg.com/originals/52/ac/3b/52ac3b7e3893d7af1e1348b6d031d4ce.gif",
+        "link": "https://www.youtube.com/embed/TzW1bcaocPs"
+    },
+    {   
+        "anime": "One Piece",
+        "personagem": "Monkey D. Luffy",
+        "imagem": "https://i.pinimg.com/564x/40/31/00/403100c729d0ef4551aeadfa57d9cbf7.jpg",
+        "id": 2,
+        "titulo":"One Piece - Luffy vs Kaido",
+        "capa": "https://i.pinimg.com/originals/25/03/23/250323269c906b90ec3f4404e1cc28e4.gif",
+        "link": "https://www.youtube.com/embed/-O1CuyzR29k"
+    },
+    {   
+        "anime": "Boruto",
+        "personagem": "Naruto Uzumaki",
+        "imagem": "https://i.pinimg.com/564x/74/3a/8f/743a8f640b3b9460e292749ee7a30a4c.jpg",
+        "id": 3,
+        "titulo":"Boruto: Naruto Next Generations - Naruto vs Isshiki",
+        "capa": "https://i.pinimg.com/originals/56/65/5b/56655bda3afc62cb70c9c4c00b5d3834.gif",
+        "link": "https://www.youtube.com/embed/lsir5YqqGL8"
+    },
+    {  
+        "anime": "Demons Slayer",
+        "personagem": "Tanjiro Kamado",
+        "imagem": "https://i.pinimg.com/564x/2b/ee/66/2bee660fcfdcc407bd3e29b01cc5e1a3.jpg",
+        "id": 4,
+        "titulo":"Demons Slayer - Tanjiro vs Rui",
+        "capa": "https://i.pinimg.com/originals/d7/a3/42/d7a3427fec7a18e133818168d2df32d1.gif",
+        "link": "https://www.youtube.com/embed/AGEuQ3Q6Tm4"
+    },
+    {   
+        "anime": "Hunter X Hunter",
+        "personagem": "Gon Freecss",
+        "imagem": "https://i.pinimg.com/564x/87/27/31/87273110934cc803856e440a55d9fb8d.jpg",
+        "id": 5,
+        "titulo":"Hunter X Hunter - Gon vs Neferpitou",
+        "capa": "https://i.pinimg.com/originals/0c/14/cf/0c14cfd2a11928ecfbc3b5be96f348a4.gif",
+        "link": "https://www.youtube.com/embed/roQFA2FjsTQ"
+    },
+    {   
+        "anime": "Jujutsu",
+        "personagem": "Satoru Goju",
+        "imagem": "https://i.pinimg.com/564x/f7/32/f2/f732f2a6a4f7286c1fb5141e762c665d.jpg",
+        "id": 6,
+        "titulo":"Jujutsu Kaisen - Satoru Gojo Vs Jogo",
+        "capa": "https://i.pinimg.com/originals/cd/1a/b4/cd1ab41e51f887b3ed412a7d259e7fac.gif",
+        "link": "https://www.youtube.com/embed/OBrDE0WyAP4"
+    },
+    {   
+        "anime": "Bleach",
+        "personagem": "Kurosaki Ichigo",
+        "imagem": "https://i.pinimg.com/564x/0e/53/90/0e53907bf18b599614609de72117d049.jpg",
+        "id": 7,
+        "titulo":"Bleach - Ichigo vs Ulquiorra",
+        "capa": "https://i.pinimg.com/originals/86/14/9a/86149a3adda22fc7e731869eb9bcc8b8.gif",
+        "link": "https://www.youtube.com/embed/tCbzqnNvUzA"
+    },
+    {   
+        "anime": "Tokyo Ghoul",
+        "personagem": "Kaneki Ken",
+        "imagem": "https://i.pinimg.com/564x/e6/85/ca/e685cacd84344f16058283cd2565dd28.jpg",
+        "id": 8,
+        "titulo":"Tokyo Ghoul - Kaneki vs Jason",
+        "capa": "https://i.pinimg.com/originals/3a/9c/13/3a9c13cef43c7b72dd58d09bebca2190.gif",
+        "link": "https://www.youtube.com/embed/g9LaEGX9h4A"
+    },
+    {   
+        "anime": "Fairy Tail",
+        "personagem": "Natsu Dragnell",
+        "imagem": "https://i.pinimg.com/564x/cd/b7/42/cdb7426f3d02ec6f26e8fec00603a9f1.jpg",
+        "id": 9,
+        "titulo":"Fairy Tail - Natsu and Gajeel vs String and Rogue",
+        "capa": "https://i.pinimg.com/originals/ed/8c/f7/ed8cf78b78c95084c1ce3627ddc6116b.gif",
+        "link": "https://www.youtube.com/embed/xW9z2ag8_aY"
+    },
+    {   
+        "anime": "Black Clover",
+        "personagem": "Asta",
+        "imagem": "https://i.pinimg.com/564x/f5/df/79/f5df79c9071f78662d9532e51b836811.jpg",
+        "id": 10,
+        "titulo":"Black Clover - Black Bulls Vs Vetto",
+        "capa": "https://i.pinimg.com/originals/55/56/33/5556337a9f822696a13d7cc5f9159ee3.gif",
+        "link": "https://www.youtube.com/embed/-IiuK-ZZsAU"
+    },
+    {   
+        "anime": "My Hero Academia",
+        "personagem": "Midoriya Izuku",
+        "imagem": "https://i.pinimg.com/564x/e4/fb/44/e4fb443f00294338f2fc7357d877882b.jpg",
+        "id": 11,
+        "titulo":"My hero Academia - Midoriya vs Todoroki",
+        "capa": "https://i.pinimg.com/originals/71/96/21/7196217ed331a43f4c39e9fd47c92a99.gif",
+        "link": "https://www.youtube.com/embed/jAsDDAM_sBY"
+    },
+    {   
+        "anime": "Attack On Titan",
+        "personagem": "Eren Jaeger",
+        "imagem": "https://i.pinimg.com/564x/a3/92/2c/a3922c432494e8836b1e11e9722c7115.jpg",
+        "id": 12,
+        "titulo":"Attack On Titan - Eren vs Reiner",
+        "capa": "https://i.pinimg.com/originals/df/2c/30/df2c305eb143c20321b9e625fca51efa.gif",
+        "link": "https://www.youtube.com/embed/49wp0H-x4Ec"
+    },
+    {   
+        "anime": "Jojo",
+        "personagem": "Jotaro Kujo",
+        "imagem": "https://i.pinimg.com/564x/39/f0/45/39f04555173123ccc51c87c0a1b46fab.jpg",
+        "id": 13,
+        "titulo":"JoJo's Bizarre Adventure - Jotaro vs Kira",
+        "capa": "https://i.pinimg.com/originals/56/60/47/56604719fe6970d7b8406bd792ba81e8.gif",
+        "link": "https://www.youtube.com/embed/7OquiVdKDwQ"
+    },
+    {   
+        "anime": "One Punch",
+        "personagem": "Saitama",
+        "imagem": "https://i.pinimg.com/564x/4c/7a/90/4c7a9057409806341d04f909f77d51f7.jpg",
+        "id": 14,
+        "titulo":"One Punch Man - Saitama vs Boros",
+        "capa": "https://i.pinimg.com/originals/7b/83/b0/7b83b010c1b941aad40ecacd7bad6520.gif",
+        "link": "https://www.youtube.com/embed/MfLQx-iLomg"
+    },
+    {   
+        "anime": "Nanatsu",
+        "personagem": "Meliodas",
+        "imagem": "https://i.pinimg.com/564x/74/16/4f/74164f10bc6e9c74162f7681a2882136.jpg",
+        "id": 15,
+        "titulo":"Nanatsu No Taizai - Meliodas vs Os Dez Mandamentos",
+        "capa": "https://i.pinimg.com/originals/a7/6a/95/a76a955faf8363d78f47180150ba78dc.gif",
+        "link": "https://www.youtube.com/embed/92Gvvh0UKjk"
+    },
+    {   
+        "anime": "Kuroko",
+        "personagem": "Akashi Sejuro",
+        "imagem": "https://i.pinimg.com/564x/61/5f/aa/615faab2dbc7aef2d80b3962554ef840.jpg",
+        "id": 16,
+        "titulo":"Kuroko No Basket - Akashi vs Seiren",
+        "capa": "https://i.pinimg.com/originals/6a/ec/b0/6aecb0c1ed5f488c754ac3ba903a0d75.gif",
+        "link": "https://www.youtube.com/embed/-Kaaio-QjRs"
+    },
+    {   
+        "anime": "Tokyo Revengers",
+        "personagem": "Sano Manjiro",
+        "imagem": "https://i.pinimg.com/564x/b6/e5/d0/b6e5d007540ea718011c7e18584996c0.jpg",
+        "id": 17,
+        "titulo":"Tokyo Revengers - Mikey vs Kazutora",
+        "capa": "https://i.pinimg.com/originals/65/9b/55/659b55d8342b6fbfafb60148b877eabe.gif",
+        "link": "https://www.youtube.com/embed/XzTYpxo1ZdE"
+    },
+    {   
+        "anime": "Mob",
+        "personagem": "Kageyama Shigeo",
+        "imagem": "https://i.pinimg.com/564x/39/b3/4d/39b34daa159706783d5059f7713e7a71.jpg",
+        "id": 18,
+        "titulo":"Mob Psycho - Mob vs Koyama",
+        "capa": "https://i.pinimg.com/originals/5b/10/c4/5b10c4c1784eea91155f05a380d8cdba.gif",
+        "link": "https://www.youtube.com/embed/nJlmcQA_dVQ"
+    },
+    {   
+        "anime": "Demons Slayer",
+        "personagem": "Zenitsu Agatsuma",
+        "imagem": "https://i.pinimg.com/564x/19/dd/83/19dd83dd52575974384e9ae0b48b0e67.jpg",
+        "id": 19,
+        "titulo":"Demons Slayer - Zenitsu vs Aranha",
+        "capa": "https://i.pinimg.com/originals/2f/72/79/2f72793552fe3db528db90281712b5f3.gif",
+        "link": "https://www.youtube.com/embed/AsuYGa8pUvA"
+    },
+    {   
+        "anime": "One piece",
+        "personagem": "Zoro",
+        "imagem": "https://i.pinimg.com/564x/e2/64/50/e264503e4088502818ac2d99cebef268.jpg",
+        "id": 20,
+        "titulo":"One piece - Zoro vs Pika",
+        "capa": "https://i.pinimg.com/originals/48/f7/0c/48f70c3f92a28fc6d432620eb88442d4.gif",
+        "link": "https://www.youtube.com/embed/tasvJwBCRLk"
+    },
+    {   
+        "anime": "Hunter X Hunter",
+        "personagem": "Killua",
+        "imagem": "https://i.pinimg.com/564x/0d/90/94/0d9094c75baf78c044448e8fdb260ca4.jpg",
+        "id": 21,
+        "titulo":"Hunter X Hunter - Killua vs Youpi",
+        "capa": "https://i.pinimg.com/originals/b2/fe/cb/b2fecb05823209edb00ffab1bcee1e74.gif",
+        "link": "https://www.youtube.com/embed/l5ZjHhsdLSQ"
+    },
+    {   
+        "anime": "Attack On Titan",
+        "personagem": "Levi Ackerman",
+        "imagem": "https://i.pinimg.com/564x/15/2c/86/152c86196f4b6e5e4a6b501fa542f2a5.jpg",
+        "id": 22,
+        "titulo":"Attack On Titan - Levi vs Titan Bestial",
+        "capa": "https://i.pinimg.com/originals/b1/fb/c4/b1fbc48104ee646321114e32b131cb55.gif",
+        "link": "https://www.youtube.com/embed/uAInfkyRJkw"
+    },
+    {   
+        "anime": "Jujutsu",
+        "personagem": "Ryomen Sukuna",
+        "imagem": "https://i.pinimg.com/564x/76/0c/c5/760cc57101a7b8128240b4e24ec52995.jpg",
+        "id": 23,
+        "titulo":"Jujutsu Kaisen - Sukuna vs Maldição Especial",
+        "capa": "https://i.pinimg.com/originals/a8/2b/59/a82b59c7723db3d4151c84ee53b27ea7.gif",
+        "link": "https://www.youtube.com/embed/WEodXaIDbXI"
+    },
+    {   
+        "anime": "Beyblade",
+        "personagem": "Ryuga",
+        "imagem": "https://i.pinimg.com/564x/61/ca/25/61ca25553fe200c36b8f408d7f4891d5.jpg",
+        "id": 24,
+        "titulo":"Beyblade Metal Fury - Ryuga vs Rago",
+        "capa": "https://i.pinimg.com/originals/b5/54/0e/b5540e3af945cb9f168d6874a311c042.gif",
+        "link": "https://www.youtube.com/embed/gvmrrPbNEXE"
+    },
+    {   
+        "anime": "Fairy Tail",
+        "personagem": "Wendy Marvell",
+        "imagem": "https://i.pinimg.com/564x/cc/46/79/cc46792eede0ed96bcc6f22c3a9185d8.jpg",
+        "id": 25,
+        "titulo":"Fairy Tail - Wendy vs Ezel",
+        "capa": "https://i.pinimg.com/originals/56/be/eb/56beebf8387d5291b468c7c555232ef9.gif",
+        "link": "https://www.youtube.com/embed/g-GM9VezJw0"
+    },
+    {   
+        "anime": "Fairy Tail",
+        "personagem": "Erza Scarlet",
+        "imagem": "https://i.pinimg.com/564x/33/34/e4/3334e4ddcae75fdbb43870d3593b19db.jpg",
+        "id": 26,
+        "titulo":"Fairy Tail - Erza vs Minerva vs Kaguya",
+        "capa": "https://i.pinimg.com/originals/e2/b0/44/e2b0441fc6caeccfc020d9088bf66d3b.gif",
+        "link": "https://www.youtube.com/embed/1Q_GtxzkipE"
+    },
+    {   
+        "anime": "Fairy Tail",
+        "personagem": "Lucy Heartfilia",
+        "imagem": "https://i.pinimg.com/564x/81/2c/10/812c10202487c635cb761f724e92830e.jpg",
+        "id": 27,
+        "titulo":"Fairy Tail - Lucy vs Tartaros",
+        "capa": "https://i.pinimg.com/originals/3d/19/80/3d1980c2398c8022a2a0fcfe87f7b269.gif",
+        "link": "https://www.youtube.com/embed/y0oPpRQmVPM"
+    },
+    {   
+        "anime": "Naruto Shippuden",
+        "personagem": "Sasuke Uchiha",
+        "imagem": "https://i.pinimg.com/564x/2a/94/1d/2a941d8472a850991cf1218170998b7b.jpg",
+        "id": 28,
+        "titulo":"Naruto Shippuden - Sasuke vs Itachi",
+        "capa": "https://i.pinimg.com/originals/41/c0/b1/41c0b142648dcc5d0e6e66d49aac2dc2.gif",
+        "link": "https://www.youtube.com/embed/mvcadIOcJwU"
+    },
+    {   
+        "anime": "Naruto Shippuden",
+        "personagem": "Madara Uchiha",
+        "imagem": "https://i.pinimg.com/564x/39/8a/e5/398ae5d0778cc4337cb7c7898065cd8a.jpg",
+        "id": 29,
+        "titulo":"Naruto Shippuden - Madara Uchiha vs Aliança Shinobi",
+        "capa": "https://i.pinimg.com/originals/ac/d0/13/acd013916155c5d02c1498be37073a31.gif",
+        "link": "https://www.youtube.com/embed/1NcK13W606M"
+    },
+    {   
+        "anime": "Fire Force",
+        "personagem": "Shinra Kusakabe",
+        "imagem": "https://i.pinimg.com/564x/88/56/21/88562156f7400a530b98e31965ce5d67.jpg",
+        "id": 30,
+        "titulo":"Fire Force - Shinra vs Sho",
+        "capa": "https://i.pinimg.com/originals/f5/72/51/f57251c83664b0d616acada578acbc64.gif",
+        "link": "https://www.youtube.com/embed/ldbpfouF60Q"
+    },
+    {   
+        "anime": "Railgun",
+        "personagem": "Mikasa Makoto",
+        "imagem": "https://i.pinimg.com/564x/b9/0b/fa/b90bfa97c7f8e00cdf6673467691d0df.jpg",
+        "id": 31,
+        "titulo":"Railgun S - Mikasa Makoto vs. Accelerator",
+        "capa": "https://i.pinimg.com/originals/da/27/e4/da27e4e970189b02507e50456371209b.gif",
+        "link": "https://www.youtube.com/embed/tLU3Lw29biU"
+    },
+    {   
+        "anime": "Overlord",
+        "personagem": "Ainz Ooal Gown",
+        "imagem": "https://i.pinimg.com/564x/5e/f1/cf/5ef1cf39b2db42d3fc9d050e27034e02.jpg",
+        "id": 32,
+        "titulo":"Overlord - Ainz vs. Shalltear",
+        "capa": "https://i.pinimg.com/originals/76/c5/b7/76c5b7779ba7fc8348e03cb8885c9322.gif",
+        "link": "https://www.youtube.com/embed/iWX0FYQTIzE"
+    },
+    {   
+        "anime": "Hataraku Maou-sama",
+        "personagem": "Sadao Maou",
+        "imagem": "https://i.pinimg.com/564x/53/c5/34/53c534e623413c437422333bba2189bb.jpg",
+        "id": 33,
+        "titulo":"Hataraku Maou-sama - Maou vs Lucifer",
+        "capa": "https://i.pinimg.com/originals/9f/2b/6b/9f2b6b985e47b79c05c588c85bcd6c47.gif",
+        "link": "https://www.youtube.com/embed/b7PGpq5zJw8"
+    },
+    {   
+        "anime": "Naruto Shippuden",
+        "personagem": "Might Guy",
+        "imagem": "https://i.pinimg.com/564x/c2/3c/78/c23c7846ee05909bbdc0ec9a19c63b12.jpg",
+        "id": 34,
+        "titulo":"Naruto Shippuden - Gai vs Madara",
+        "capa": "https://i.pinimg.com/originals/c1/f0/f7/c1f0f77189b8a1b6e7e641295542282f.gif",
+        "link": "https://www.youtube.com/embed/P0_y7sJOa68"
+    },
+    {   
+        "anime": "Boruto",
+        "personagem": "Kawaki Uzumaki",
+        "imagem": "https://i.pinimg.com/564x/d5/7c/ed/d57ced85004e172bf2273d3a09604d15.jpg",
+        "id": 35,
+        "titulo":"Boruto: Naruto Next Generations - Kawaki vs Garo",
+        "capa": "https://i.pinimg.com/originals/2c/5b/d7/2c5bd70aa8d3e6876a7efa61e010eef5.gif",
+        "link": "https://www.youtube.com/embed/57rEcipCXoY"
+    },
+    {   
+        "anime": "Boruto",
+        "personagem": "Boruto Uzumaki",
+        "imagem": "https://i.pinimg.com/564x/d8/32/b5/d832b5de126c46ed51ee6f9a483e6dd9.jpg",
+        "id": 36,
+        "titulo":"Boruto: Naruto Next Generations - Boruto vs Kawaki",
+        "capa": "https://i.pinimg.com/originals/14/f3/80/14f3805d4832db62164b000d9581b47d.gif",
+        "link": "https://www.youtube.com/embed/VXgm75IqAfU"
+    },
+    {   
+        "anime": "Naruto Shippuden",
+        "personagem": "Naruto Uzumaki",
+        "imagem": "https://pbs.twimg.com/media/Ea4b0ezU4AEqJc_.jpg",
+        "id": 37,
+        "titulo":"Naruto Shippuden - Naruto vs Pain",
+        "capa": "https://i.pinimg.com/originals/21/fc/76/21fc76501f93852f0a544585009c5d85.gif",
+        "link": "https://youtube.com/embed/C1znl_2hYG8"
+    },  
+    {   
+        "anime": "Boruto",
+        "personagem": "Sasuke Uchiha",
+        "imagem": "https://i.pinimg.com/564x/9b/c5/74/9bc57407da7ed8c03a49baa9a323c6dd.jpg",
+        "id": 38,
+        "titulo":"Boruto: Naruto Next Generations - Sasuke vs Kinshiki",
+        "capa": "https://i.pinimg.com/originals/0b/8e/f4/0b8ef43f90cde27012b4c14427c74131.gif",
+        "link": "https://www.youtube.com/embed/4dsWDiaKjNQ"
+    },
+    {   
+        "anime": "Boruto",
+        "personagem": "Momoshiki Ōtsutsuki",
+        "imagem": "https://i.pinimg.com/564x/d4/b1/a4/d4b1a4aad80c917afa493e8cd38cfe35.jpg",
+        "id": 39,
+        "titulo":"Boruto: Naruto Next Generations - Naruto e Sasuke vs Momoshiki",
+        "capa": "https://i.pinimg.com/originals/1e/d0/8c/1ed08c23b701128ec0caa7c6744bd789.gif",
+        "link": "https://www.youtube.com/embed/LPtNi_P2_JU"
+    },
+    {   
+        "anime": "Boruto",
+        "personagem": "Jigen Ōtsutsuki",
+        "imagem": "https://i.pinimg.com/564x/18/16/0e/18160e82cc54f8b0a17db8616400e2ee.jpg",
+        "id": 40,
+        "titulo":"Boruto: Naruto Next Generations - Naruto e Sasuke vs Jigen",
+        "capa": "https://i.pinimg.com/originals/7d/61/c2/7d61c28a1989410b2c3990f588eed320.gif",
+        "link": "https://www.youtube.com/embed/8WwkIvCTZPo"
+    },
+    {   
+        "anime": "Fire Force",
+        "personagem": "Joker",
+        "imagem": "https://i.pinimg.com/564x/64/79/ae/6479ae23031eca8cc38e88871b4dfdee.jpg",
+        "id": 41,
+        "titulo":"Fire Force - Joker VS Comandante Assassino Do Sol",
+        "capa": "https://i.pinimg.com/originals/8d/69/11/8d691194de5746860984069fa76c4899.gif",
+        "link": "https://www.youtube.com/embed/YVYLo9fiIIo"
+    },
+    {   
+        "anime": "Black Clover",
+        "personagem": "Julius Novachrono",
+        "imagem": "https://i.pinimg.com/564x/9f/f9/21/9ff9213fa6912669a34eabc732158c92.jpg",
+        "id": 42,
+        "titulo":"Black Clover - Julius vs Licht",
+        "capa": "https://i.pinimg.com/originals/12/93/3d/12933dd3c8e97bf6a341f41ccec74ecf.gif",
+        "link": "https://www.youtube.com/embed/H5qupR6YQpQ"
+    },
+    {   
+        "anime": "Black Clover",
+        "personagem": "Vanica Zogratis",
+        "imagem": "https://i.pinimg.com/564x/b2/35/0c/b2350c8693a80c177a8a24dab5c491e5.jpg",
+        "id": 43,
+        "titulo":"Black Clover - Vanica vs Noelle",
+        "capa": "https://i.pinimg.com/originals/e4/c3/f6/e4c3f64f0f6f13ae40ced34943fc7255.gif",
+        "link": "https://www.youtube.com/embed/8dBRG1yMdeE"
+    },
+    {   
+        "anime": "Black Clover",
+        "personagem": "Dante Zogratis",
+        "imagem": "https://staticg.sportskeeda.com/editor/2022/08/dfb6c-16618685567209-1920.jpg",
+        "id": 44,
+        "titulo":"Black Clover - Dante vs Asta and Yami",
+        "capa": "https://media.tenor.com/bw7uvDU1C44AAAAC/black-clover-dante.gif",
+        "link": "https://www.youtube.com/embed/O_s_L4hLW-0"
+    },
+    {   
+        "anime": "Black Clover",
+        "personagem": "Zenon Zogratis",
+        "imagem": "https://i.pinimg.com/564x/b7/56/f7/b756f7c92b620dce61588e1c3088fe03.jpg",
+        "id": 45,
+        "titulo":"Black Clover - Zenon vs Yuno",
+        "capa": "https://i.pinimg.com/originals/a9/b7/d8/a9b7d8b8b8dd2d4bd6e57336d9ff2dce.gif",
+        "link": "https://www.youtube.com/embed/LBDt5V-OCQU"
+    },
+    {   
+        "anime": "Black Clover",
+        "personagem": "Yami Sukehiro",
+        "imagem": "https://i.pinimg.com/564x/27/61/fb/2761fbba3b194748e4f0080441e8296e.jpg",
+        "id": 46,
+        "titulo":"Black Clover - Capitães vs Capitães - Yami, Jack, Nozel, Kaiser vs Charlotte, Fuego, William, Dorothy",
+        "capa": "https://i.pinimg.com/originals/a9/ec/32/a9ec329da0c001d6525b9882ee67c254.gif",
+        "link": "https://www.youtube.com/embed/uIPmU9T4_fo"
+    },
+    {   
+        "anime": "Black Clover",
+        "personagem": "Nacht Faust",
+        "imagem": "https://i.pinimg.com/564x/ea/39/cd/ea39cd7639cb043cb06013c840edfee8.jpg",
+        "id": 47,
+        "titulo":"Black Clover - Natch Ameaça Capitães",
+        "capa": "https://i.pinimg.com/originals/73/74/90/7374901586768f94a6aa06d6532c5260.gif",
+        "link": "https://www.youtube.com/embed/cMyoyy2KTQY"
+    },
+    {   
+        "anime": "Slime",
+        "personagem": "Rimuru Tempest",
+        "imagem": "https://i.pinimg.com/564x/24/8e/0e/248e0e41c47a6b806938f507509215ce.jpg",
+        "id": 48,
+        "titulo":"Tensei Shitara Slime - Rimuru se torna Lorde Demonio",
+        "capa": "https://64.media.tumblr.com/46582eea7e5fb80492140661887f2584/a364ea59f37a191b-df/s540x810/6ab3bd8b1eddefa279e9470560677b77aa53f0f5.gif",
+        "link": "https://www.youtube.com/embed/8yE1Ho2dVN0"
+    },
+    {   
+        "anime": "Demons Slayer",
+        "personagem": "Rengoku Kyoujurou",
+        "imagem": "https://i.pinimg.com/564x/17/51/3b/17513b0b35847d0fd9f51b092ef66fd1.jpg",
+        "id": 49,
+        "titulo":"Demons Slayer - Rengoku vs Akaza",
+        "capa": "https://i.pinimg.com/originals/21/6c/58/216c584adf15f824ba5a88f70ac3dbc8.gif",
+        "link": "https://www.youtube.com/embed/qRv4livpvhM"
+    }
+]

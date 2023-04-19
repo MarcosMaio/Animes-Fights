@@ -1,0 +1,87 @@
+.cabecalhoLink {
+    position: relative;
+    display: inline-block;
+}
+
+.link {
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.5em;
+    text-decoration: none;
+    border: solid 2px;
+    border: none;
+    letter-spacing: 0.1em;
+}
+
+.link:hover {
+    animation: borda-animada 2s ease-in-out infinite;
+}
+
+.link:active {
+    background-image: var(--animation-links-after);
+    -webkit-background-clip: text; /* para navegadores baseados em Webkit */
+    -moz-background-clip: text; /* para navegadores baseados em Mozilla */
+    background-clip: text;
+    color: transparent;
+    animation-name: anima;
+    animation: 0.1s linear infinite;
+  }
+  
+  @keyframes anima {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+}
+
+@keyframes borda-animada {
+  0% {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #c0c0c0, #a6a6a6, #e6e6e6);
+  }
+  50% {
+    border-image-slice: 2;
+    border-image-source: linear-gradient(to right, #808080, #f2f2f2, #b2b2b2);
+  }
+  100% {
+    border-image-slice: 3;
+    border-image-source: linear-gradient(to right, #f9f9f9, #7f7f7f, #4c4c4c);
+  }
+}
+
+.link::before {
+    content: '';
+    background: var(--animation-links-after);
+    position: absolute;
+    top: -2px;
+    right:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 15s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 20px;
+}
+
+.link:hover:before {
+    opacity: 1;
+}
+
+.link:active:after {
+        background: transparent;
+    }
+
+
+
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

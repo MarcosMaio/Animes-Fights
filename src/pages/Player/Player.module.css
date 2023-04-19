@@ -1,0 +1,11 @@
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+iframe {
+    margin-bottom: 40px;
+}
