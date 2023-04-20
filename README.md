@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Anime Epic Moments  (PROJETO DE SITE NÃO TERMINADO !)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Bem-vindo(a) ao Anime Epic Moments! Aqui você pode reviver os momentos épicos dos seus animes favoritos. Com uma interface amigável e recursos de pesquisa avançados, você pode encontrar facilmente os momentos mais emocionantes e memoráveis dos animes que mais gosta. Além disso, você pode salvar os seus momentos favoritos e assisti-los novamente quando quiser. Vamos conhecer algumas das funcionalidades do site:
 
-In the project directory, you can run:
+Pesquisa de Animes
+Através da barra de pesquisa na página inicial, você pode digitar o nome do anime que deseja encontrar momentos épicos. O site possui um vasto banco de dados de animes populares e clássicos, então as chances de encontrar o seu anime favorito são altas. Os resultados serão exibidos em formato de cards, contendo informações sobre o anime e uma miniatura do momento épico relacionado.
 
-### `npm start`
+Reprodução de Momentos Épicos
+Ao clicar em um card de momento épico, você será redirecionado(a) para a página de reprodução. Lá, você poderá assistir ao momento em destaque através do player integrado ao site. O player oferece opções de reprodução, pausa, avanço e retrocesso, permitindo que você assista o momento quantas vezes quiser e controle a velocidade de reprodução de acordo com a sua preferência.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Favoritos
+Você pode salvar os momentos épicos que mais gostou na página de Favoritos. Para isso, basta clicar no coraçãozinho presente no card do momento. Os momentos favoritos serão automaticamente adicionados à sua lista de Favoritos e estarão disponíveis para visualização sempre que você acessar a página de Favoritos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navegação Fácil
+O site possui um cabeçalho com opções de navegação para facilitar a sua experiência. Além da opção de pesquisa, você encontrará um botão para acessar a sua lista de Favoritos diretamente. Dessa forma, você pode encontrar facilmente os momentos épicos que salvou para assistir novamente.
 
-### `npm test`
+Design Responsivo
+O Anime Epic Moments é um site responsivo, o que significa que ele se adapta a diferentes tamanhos de tela, como desktop, tablet e dispositivos móveis. Você pode acessar o site em qualquer dispositivo com acesso à internet, tornando-o conveniente e acessível onde quer que você esteja.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Como Contribuir
+Se você é um fã de animes e gostaria de compartilhar momentos épicos, você pode contribuir com o site! Basta se cadastrar e fazer o upload dos seus momentos favoritos. A equipe do Anime Epic Moments irá revisar as contribuições e adicioná-las ao banco de dados do site, tornando os momentos disponíveis para os outros usuários. Você também pode interagir com outros fãs de animes através dos comentários nas páginas de momentos épicos.
 
-### `npm run build`
+Tecnologias Utilizadas
+O Anime Epic Moments foi desenvolvido utilizando as seguintes tecnologias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Front-end: Aplicação desenvolvida com React Js com a ultilização de HTML5, CSS3 e JavaScript para a criação da interface do usuário e interações no site, Api.json na qual fica armazenada os momentos epicos ultilizados dinamicamente nos cards.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Conclusão
+Animes Fights é uma plataforma emocionante e conveniente para os fãs de animes reviverem os momentos épicos dos seus animes favoritos. Com recursos avançados de pesquisa, possibilidade de salvar os momentos favoritos na página de Favoritos e um player integrado para assistir aos momentos diretamente no site, oferece uma experiência completa e personalizada aos usuários.
