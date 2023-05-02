@@ -3,10 +3,10 @@
     {      
         "anime": "Dragon Ball",
         "personagem": "Son Goku",
-        "imagem": "https://i.pinimg.com/564x/e1/38/dd/e138dd122a097837c8cd5562c7ba62b9.jpg",
+        "imagem": "https://i.pinimg.com/564x/9a/66/8a/9a668abea8becd6fc20944ce4bf67198.jpg",
         "id": 1,
         "titulo":"Dragon Ball Super - Goku vs Jiren",
-        "capa": "https://i.pinimg.com/originals/52/ac/3b/52ac3b7e3893d7af1e1348b6d031d4ce.gif",
+        "capa": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a290752-d7eb-45e3-aa31-8e71b544cde0/dbvx146-b48f2a1d-92fc-4057-a5c4-173ce44e485a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBhMjkwNzUyLWQ3ZWItNDVlMy1hYTMxLThlNzFiNTQ0Y2RlMFwvZGJ2eDE0Ni1iNDhmMmExZC05MmZjLTQwNTctYTVjNC0xNzNjZTQ0ZTQ4NWEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5rMjkHsdGjCwj_WQ6f3r2UkjEyAKid1Rt71aRJq55zE",
         "link": "https://www.youtube.com/embed/TzW1bcaocPs"
     },
     {   
@@ -24,7 +24,7 @@
         "imagem": "https://i.pinimg.com/564x/74/3a/8f/743a8f640b3b9460e292749ee7a30a4c.jpg",
         "id": 3,
         "titulo":"Boruto: Naruto Next Generations - Naruto vs Isshiki",
-        "capa": "https://i.pinimg.com/originals/56/65/5b/56655bda3afc62cb70c9c4c00b5d3834.gif",
+        "capa": "https://64.media.tumblr.com/32fa3e17360f502080b4191c8a438116/6c7ef64d1449b4fd-20/s540x810/1031d326dea2be34f62712f6fabdca60589fd734.gif",
         "link": "https://www.youtube.com/embed/lsir5YqqGL8"
     },
     {  
@@ -46,7 +46,7 @@
         "link": "https://www.youtube.com/embed/roQFA2FjsTQ"
     },
     {   
-        "anime": "Jujutsu",
+        "anime": "Jujutsu Kaisen",
         "personagem": "Satoru Goju",
         "imagem": "https://i.pinimg.com/564x/f7/32/f2/f732f2a6a4f7286c1fb5141e762c665d.jpg",
         "id": 6,
@@ -57,19 +57,19 @@
     {   
         "anime": "Bleach",
         "personagem": "Kurosaki Ichigo",
-        "imagem": "https://i.pinimg.com/564x/0e/53/90/0e53907bf18b599614609de72117d049.jpg",
+        "imagem": "https://i.pinimg.com/564x/1b/58/60/1b58607cba3230c9467fd54294c6eb2a.jpg",
         "id": 7,
         "titulo":"Bleach - Ichigo vs Ulquiorra",
-        "capa": "https://i.pinimg.com/originals/86/14/9a/86149a3adda22fc7e731869eb9bcc8b8.gif",
+        "capa": "https://i.pinimg.com/originals/ba/cb/f0/bacbf088f458505cb7b4a7ded0c37818.gif",
         "link": "https://www.youtube.com/embed/tCbzqnNvUzA"
     },
     {   
         "anime": "Tokyo Ghoul",
         "personagem": "Kaneki Ken",
-        "imagem": "https://i.pinimg.com/564x/e6/85/ca/e685cacd84344f16058283cd2565dd28.jpg",
+        "imagem": "https://i.pinimg.com/564x/b9/47/3e/b9473ece5c6723ae0effa0ae48801412.jpg",
         "id": 8,
         "titulo":"Tokyo Ghoul - Kaneki vs Jason",
-        "capa": "https://i.pinimg.com/originals/3a/9c/13/3a9c13cef43c7b72dd58d09bebca2190.gif",
+        "capa": "https://steamuserimages-a.akamaihd.net/ugc/270588452681718308/FA6754D3CCF715B3F816CAAA0E1459029632E4B6/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
         "link": "https://www.youtube.com/embed/g9LaEGX9h4A"
     },
     {   
@@ -109,7 +109,7 @@
         "link": "https://www.youtube.com/embed/49wp0H-x4Ec"
     },
     {   
-        "anime": "Jojo",
+        "anime": "JoJo",
         "personagem": "Jotaro Kujo",
         "imagem": "https://i.pinimg.com/564x/39/f0/45/39f04555173123ccc51c87c0a1b46fab.jpg",
         "id": 13,
@@ -154,7 +154,7 @@
         "link": "https://www.youtube.com/embed/XzTYpxo1ZdE"
     },
     {   
-        "anime": "Mob",
+        "anime": "Mob Psycho",
         "personagem": "Kageyama Shigeo",
         "imagem": "https://i.pinimg.com/564x/39/b3/4d/39b34daa159706783d5059f7713e7a71.jpg",
         "id": 18,
@@ -172,11 +172,11 @@
         "link": "https://www.youtube.com/embed/AsuYGa8pUvA"
     },
     {   
-        "anime": "One piece",
+        "anime": "One Piece",
         "personagem": "Zoro",
         "imagem": "https://i.pinimg.com/564x/e2/64/50/e264503e4088502818ac2d99cebef268.jpg",
         "id": 20,
-        "titulo":"One piece - Zoro vs Pika",
+        "titulo":"One Piece - Zoro vs Pika",
         "capa": "https://i.pinimg.com/originals/48/f7/0c/48f70c3f92a28fc6d432620eb88442d4.gif",
         "link": "https://www.youtube.com/embed/tasvJwBCRLk"
     },
@@ -199,7 +199,7 @@
         "link": "https://www.youtube.com/embed/uAInfkyRJkw"
     },
     {   
-        "anime": "Jujutsu",
+        "anime": "Jujutsu Kaisen",
         "personagem": "Ryomen Sukuna",
         "imagem": "https://i.pinimg.com/564x/76/0c/c5/760cc57101a7b8128240b4e24ec52995.jpg",
         "id": 23,
@@ -271,7 +271,7 @@
         "link": "https://www.youtube.com/embed/ldbpfouF60Q"
     },
     {   
-        "anime": "Railgun",
+        "anime": "Railgun S",
         "personagem": "Mikasa Makoto",
         "imagem": "https://i.pinimg.com/564x/b9/0b/fa/b90bfa97c7f8e00cdf6673467691d0df.jpg",
         "id": 31,
@@ -384,7 +384,7 @@
         "imagem": "https://i.pinimg.com/564x/b2/35/0c/b2350c8693a80c177a8a24dab5c491e5.jpg",
         "id": 43,
         "titulo":"Black Clover - Vanica vs Noelle",
-        "capa": "https://i.pinimg.com/originals/e4/c3/f6/e4c3f64f0f6f13ae40ced34943fc7255.gif",
+        "capa": "https://pa1.narvii.com/7855/be84dad16cadea7b7ac200049654601ef743857br1-480-268_hq.gif",
         "link": "https://www.youtube.com/embed/8dBRG1yMdeE"
     },
     {   
@@ -393,7 +393,7 @@
         "imagem": "https://staticg.sportskeeda.com/editor/2022/08/dfb6c-16618685567209-1920.jpg",
         "id": 44,
         "titulo":"Black Clover - Dante vs Asta and Yami",
-        "capa": "https://media.tenor.com/bw7uvDU1C44AAAAC/black-clover-dante.gif",
+        "capa": "https://media.tenor.com/WnelCA8B90IAAAAd/dante-black-clover.gif",
         "link": "https://www.youtube.com/embed/O_s_L4hLW-0"
     },
     {   
@@ -402,7 +402,7 @@
         "imagem": "https://i.pinimg.com/564x/b7/56/f7/b756f7c92b620dce61588e1c3088fe03.jpg",
         "id": 45,
         "titulo":"Black Clover - Zenon vs Yuno",
-        "capa": "https://i.pinimg.com/originals/a9/b7/d8/a9b7d8b8b8dd2d4bd6e57336d9ff2dce.gif",
+        "capa": "https://64.media.tumblr.com/f4e4ad428494fc4bc1feb5750085752c/57ecda6c679f41d3-92/s400x600/7ef52af727aa6103b12fc03471fb56ca5c20f4c4.gif",
         "link": "https://www.youtube.com/embed/LBDt5V-OCQU"
     },
     {   
@@ -440,5 +440,104 @@
         "titulo":"Demons Slayer - Rengoku vs Akaza",
         "capa": "https://i.pinimg.com/originals/21/6c/58/216c584adf15f824ba5a88f70ac3dbc8.gif",
         "link": "https://www.youtube.com/embed/qRv4livpvhM"
+    },
+    {   
+        "anime": "Re:Zero",
+        "personagem": "Natsuki Subaru",
+        "imagem": "https://i.pinimg.com/564x/01/a1/8b/01a18b1c87d65b86329396458db1a3b0.jpg",
+        "id": 50,
+        "titulo":"Re:Zero - Subaru Reunião das bruxas",
+        "capa": "https://i.pinimg.com/originals/7c/26/f8/7c26f8e6aebeedb6b361eb345fa10c0a.gif",
+        "link": "https://www.youtube.com/embed/W2c9-kIqfNI"
+    },
+    {   
+        "anime": "Re:Zero",
+        "personagem": "Satella",
+        "imagem": "https://fictionhorizon.com/wp-content/uploads/2022/08/ENvyWitch.jpg",
+        "id": 51,
+        "titulo":"Re:Zero - Satella (Bruxa da Inveja) primeira aparição",
+        "capa": "https://64.media.tumblr.com/5abc698a87bbe41e10d8752bba1a6d8b/3fa5d47584a5901d-e1/s540x810/7bbc694546612721ad266888ffc6a7882ec20fca.gif",
+        "link": "https://www.youtube.com/embed/W2c9-kIqfNI"
+    },
+    {   
+        "anime": "Re:Zero",
+        "personagem": "Rem",
+        "imagem": "https://i.pinimg.com/564x/5e/a1/5b/5ea15b64bce6b21c7fae1c199227bb8e.jpg",
+        "id": 52,
+        "titulo":"Re:Zero - Rem vs Betelgeuse (Bispo da Preguiça)",
+        "capa": "https://i.pinimg.com/originals/f1/00/9e/f1009e0b75d398cf042a45debeee641a.gif",
+        "link": "https://www.youtube.com/embed/TlDleOpClzs"
+    },
+    {   
+        "anime": "Re:Zero",
+        "personagem": "Betelgeuse",
+        "imagem": "https://i.pinimg.com/564x/d2/dd/da/d2dddaf4b80b23a0e49959b21c8d5b1b.jpg",
+        "id": 53,
+        "titulo":"Re:Zero - Betelgeuse (Bispo da Preguiça) vs  Regulus Corneas (Bispo da Avareza) and Pandora (Bruxa da Vaidade)",
+        "capa": "https://thumbs.gfycat.com/IdleAdoredBrahmancow-size_restricted.gif",
+        "link": "https://www.youtube.com/embed/TlDleOpClzs"
+    },
+    {   
+        "anime": " Elite Classroom",
+        "personagem": "Ayanokōji Kiyotaka",
+        "imagem": "https://i.pinimg.com/564x/c6/25/43/c62543b876d14092bb11ce6013d891ef.jpg",
+        "id": 54,
+        "titulo":"Classroom of the elite - Ayanokoji vs Ryuen's grupo",
+        "capa": "https://media.tenor.com/gOz7vKYumyIAAAAC/ayanokoji-anime.gif",
+        "link": "https://www.youtube.com/embed/cH249RcbrnM"
+    },
+    {   
+        "anime": "One Piece",
+        "personagem": "Gol D. Roger",
+        "imagem": "https://i.pinimg.com/564x/92/8d/22/928d22b9d49e0cba9db784e9f72573d2.jpg",
+        "id": 55,
+        "titulo":"One Piece - Roger vs Barba Branca",
+        "capa": "https://i.pinimg.com/originals/48/d2/d4/48d2d446903509f10103848b5fe648b9.gif",
+        "link": "https://www.youtube.com/embed/UOZpCJhxv-w"
+    },
+    {   
+        "anime": "Nanatsu",
+        "personagem": "Escarnor",
+        "imagem": "https://i.pinimg.com/564x/25/29/12/252912db5d9c29928961448c8b1000fb.jpg",
+        "id": 56,
+        "titulo":"Nanatsu No Taizai - Escanor Vs Estarossa",
+        "capa": "https://media.tenor.com/lWQruUVh3gAAAAAd/estarossa-escanor.gif",
+        "link": "https://www.youtube.com/embed/5B0Y6p9mBRA"
+    },
+    {   
+        "anime": "Hunter X Hunter",
+        "personagem": "Isaac Netero",
+        "imagem": "https://i.pinimg.com/564x/cc/eb/90/cceb90dc30271514b5776cd8e727be6d.jpg",
+        "id": 57,
+        "titulo":"Hunter x Hunter Netero vs Meruem",
+        "capa": "https://i.pinimg.com/originals/13/d9/ee/13d9ee1fb16af9d52fbe71916fbee640.gif",
+        "link": "https://www.youtube.com/embed/-s6trfoS6Mw"
+    },
+    {   
+        "anime": "Hunter X Hunter",
+        "personagem": "Chrollo Lucilfer",
+        "imagem": "https://i.pinimg.com/564x/30/25/59/30255906fed70567952efd047b26f5fb.jpg",
+        "id": 58,
+        "titulo":"Hunter x Hunter Chrollo vs Zoldyck",
+        "capa": "https://i.pinimg.com/originals/2c/23/f2/2c23f201861eb19ef2d424f1b37101bc.gif",
+        "link": "https://www.youtube.com/embed/vj1S3ovmpt0"
+    },
+    {   
+        "anime": "Hunter X Hunter",
+        "personagem": "Zenon Zogratis",
+        "imagem": "https://i.pinimg.com/564x/da/51/fe/da51fec47c508989894ba01afe00901b.jpg",
+        "id": 59,
+        "titulo":"Hunter X Hunter - Zenon and Netero Dragon Drive",
+        "capa": "https://media.tenor.com/tP2Qv7UMYcgAAAAC/hunter-x-hunter-isaac-netero.gif",
+        "link": "https://www.youtube.com/embed/HVNyN3pd4CY"
+    },
+    {   
+        "anime": "One Piece",
+        "personagem": "Barba Negra",
+        "imagem": "https://i.pinimg.com/564x/b2/8a/0e/b28a0ec61baf6cbf539082a98fb3ae92.jpg",
+        "id": 60,
+        "titulo":"One Piece - Barba Negra come a fruta do terremoto",
+        "capa": "https://i.pinimg.com/originals/68/6d/a6/686da6643574271ec52e7a61603e1f79.gif",
+        "link": "https://www.youtube.com/embed/2Kbkqc0WecU"
     }
 ]
