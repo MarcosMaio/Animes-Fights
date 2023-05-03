@@ -6,13 +6,15 @@ import { useFavoritoContext } from 'contextos/Favoritos'
 import { Link } from 'react-router-dom'
 
 
-export default function Card({id, titulo, capa, anime, imagem, personagem}) {
+export default function Card({id, titulo, capa, anime, imagem, personagem,}) {
     const {favorito, adicionarFavorito} = useFavoritoContext();
     const ehFavorito = favorito.some((fav) => fav.id === id);
     const icone = !ehFavorito ? iconeFavoritar : iconeDesfavoritar;
     const [isHovered, setIsHovered] = useState(false);
     const [imageType, setImageType] = useState('imagem'); // estado para controlar qual imagem deve ser exibida
     const [isBorderHidden, setIsBorderHidden] = useState(false); // Define se a borda da imagem está oculta
+    
+
     
     function handleHoverBorder() {
         setIsBorderHidden(true); // quando o mouse estiver em cima da div, oculta a borda da imagem
