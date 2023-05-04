@@ -1,4 +1,5 @@
-# Anime Epic Moments  (PROJETO DE SITE NÃO TERMINADO !)<br>
+# Anime Epic Moments  (PROJETO DE SITE AINDA NÃO TERMINADO !)<br>
+link do servidor que o site está hospedado via vercel: https://animes-fights.vercel.app/
 
 ## Bem-vindo(a) ao Anime Epic Moments!<br>
 Aqui você pode reviver os momentos épicos dos seus animes favoritos. Com uma interface amigável e recursos de pesquisa avançados, você pode encontrar facilmente os momentos mais emocionantes e memoráveis dos animes que mais gosta. Além disso, você pode salvar os seus momentos favoritos e assisti-los novamente quando quiser. Vamos conhecer algumas das funcionalidades do site:
