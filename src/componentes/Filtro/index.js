@@ -45,86 +45,92 @@ export default function Filtro() {
     console.log(animesTags)
 
     return (
-            <section className={style.body}>
-                    <div>
-                        <h3>Encontre seus animes preferidos 
-                        <div style={{ transform: botaoTrocaEstado ? "rotate(-135deg) " : "rotate(45deg)" }}
-                            onClick={() => 
-                            setBotaoTrocaEstado(!botaoTrocaEstado)} 
-                            class={style.arrowCta}>
-                        </div>
-                        
-                        </h3>
-                            {botaoTrocaEstado && (
-                                <section className={style.caixa_Container_Lista_Anime}>
-                                    <div className={style.caixaTagTodos}>
-                                        <span onClick={()=> setfiltraTagAnime(videos)} className={style.tagTodos}>Todos</span>
-                                    </div>
-                                    
-                                    <div className={style.container_animeLista}>
-                                        <ul className={style.caixaLista}>
-                                            {animesTags.map((anime) => (
-                                                    <li onClick={() => {filtraAnimeTag(anime)}} className={style.animeLista}
-                                                    >{anime}</li>
-                                                    
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </section>
-                            
-                            )}
-                        </div>
-                        
-                            {!botaoTrocaEstado && (
-                            <>
-                                <div className={style.inputBox}>
-                                    <input
-                                        type="text"
-                                        value={filtraMomentoEpico}
-                                        onChange={(event) => setFiltraMomentoEpico(event.target.value)}
-                                        onBlur={() => handleBlur()}
-                                    />
-                                    <span>Procure seu momento épico!</span>
-                                    <i></i>
-                                </div>
 
-                                    <section className={style.containerCardsAnimes}> 
-                                        {exibiçãoDeAnimes.map((video) => (
-                                            <Card {...video} key={video.id} />
-                                        ))}
-                                        <div className={style.containerShowMoreButton}
-                                            onClick={() => handleRangeChange(1, endId + 10)}
-                                            style={{ display: endId >= maxId ? 'none' : 'block' }}>
-                                        
-                                            <button class={style.more_btn}>
-                                                <span class={style.more_dot}></span>
-                                                <span class={style.more_dot}></span>
-                                                <span class={style.more_dot}></span>
-                                            </button>
-                                        </div>
+      <section className={style.body}>
+        <div>
+          <h3>
+            Encontre seus animes preferidos
+            <div
+              style={{
+                transform: botaoTrocaEstado
+                  ? "rotate(-135deg) "
+                  : "rotate(45deg)",
+              }}
+              onClick={() => setBotaoTrocaEstado(!botaoTrocaEstado)}
+              class={style.arrowCta}
+            ></div>
+          </h3>
 
-                                        
-                                    </section>
-                                    
-                                </>
-                            )}
+          {botaoTrocaEstado && (
+            <section className={style.caixa_Container_Lista_Anime}>
+              <div className={style.caixaTagTodos}>
+                <span
+                  onClick={() => setfiltraTagAnime(videos)}
+                  className={style.tagTodos}
+                >
+                  Todos
+                </span>
+              </div>
 
-                    {botaoTrocaEstado && (
-                        <section className={style.containerCardsAnimes}>
-                        {filtraTagAnime.map((video) => (
-                            <Card {...video} key={video.id} />
-                                                        ))}
-                        </section>
-                    )}
+              <div className={style.container_animeLista}>
+                <ul className={style.caixaLista}>
+                  {animesTags.map((anime) => (
+                    <li
+                      onClick={() => {
+                        filtraAnimeTag(anime);
+                      }}
+                      className={style.animeLista}
+                    >
+                      {anime}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+          )}
+        </div>
 
-                </section>
-    )
+        {!botaoTrocaEstado && (
+          <>
+            <div className={style.inputBox}>
+              <input
+                type="text"
+                value={filtraMomentoEpico}
+                onChange={(event) => setFiltraMomentoEpico(event.target.value)}
+                onBlur={() => handleBlur()}
+              />
+              <span>Procure seu momento épico!</span>
+              <i></i>
+            </div>
+            
+            
+
+            <section className={style.containerCardsAnimes}>
+              {exibiçãoDeAnimes.map((video) => (
+                <Card {...video} key={video.id} />
+              ))}
+              <div
+                className={style.containerShowMoreButton}
+                onClick={() => handleRangeChange(1, endId + 10)}
+                style={{ display: endId >= maxId ? "none" : "block" }}
+              >
+                <button class={style.more_btn}>
+                  <span class={style.more_dot}></span>
+                  <span class={style.more_dot}></span>
+                  <span class={style.more_dot}></span>
+                </button>
+              </div>
+            </section>
+          </>
+        )}
+
+        {botaoTrocaEstado && (
+          <section className={style.containerCardsAnimes}>
+            {filtraTagAnime.map((video) => (
+              <Card {...video} key={video.id} />
+            ))}
+          </section>
+        )}
+      </section>
+    );
 }
-
-//Por fim, a lista de vídeos filtrados é exibida na tela com o auxílio do método map(), que itera por todos os vídeos da lista videosFiltrados e exibe cada um deles usando um componente Card.
-/* <section className={style.containerCardsAnimes}> 
-                            {videosFiltrados.map((video) => (
-                                <Card {...video} key={video.id} />
-                            ))}
-                        </section>
-            */
