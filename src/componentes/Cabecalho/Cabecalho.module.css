@@ -1,7 +1,7 @@
 .cabecalho {
     height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1.1em 30em;
     background-color: var(--background);

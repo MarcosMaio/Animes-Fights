@@ -7,14 +7,16 @@ import style from './Filtro.module.css'
 export default function Filtro() {
     const [filtraMomentoEpico, setFiltraMomentoEpico] = useState(''); //Define o estado filtraMomentoEpico com um valor inicial vazio e a função setFiltraMomentoEpico que permite atualizar o estado. O estado filtraMomentoEpico será usado para armazenar o valor atual do campo de pesquisa
 
-    const [botaoTrocaEstado, setBotaoTrocaEstado] = useState(false)  //Botão responsavel por exibir a lista com os animes quando o estado mudar para true.
-    const [filtraTagAnime, setfiltraTagAnime] = useState(videos) //Estado responsavel por armazenar os animes que serão filtrados ao clicar na tag com o nome do anime desejado para exibir apenas seus cards.
+    const [botaoTrocaEstado, setBotaoTrocaEstado] = useState(false);  //Botão responsavel por exibir a lista com os animes quando o estado mudar para true.
+    const [filtraTagAnime, setfiltraTagAnime] = useState(videos); //Estado responsavel por armazenar os animes que serão filtrados ao clicar na tag com o nome do anime desejado para exibir apenas seus cards.
     const animesTags = [...new Set(videos.map((video) => video.anime))]; //Const responsavel por pegar todos os nome de animes de videos e exibir apenas os nomes unicos.
     
-    const [startId, SetStartId] = useState(1) //Estado inicial startId
-    const [endId, SetEndId] = useState(30)  //Estado final do endId
-    const maxId = videos.reduce((max, item) => Math.max(max, item.id), 0) //const para pegar o maior id que contem dentro do json de forma dinamica
-
+    const [startId, SetStartId] = useState(1); //Estado inicial startId
+    const [endId, SetEndId] = useState(30); //Estado final do endId
+    const maxId = videos.reduce((max, item) => Math.max(max, item.id), 0); //const para pegar o maior id que contem dentro do json de forma dinamica
+    
+    const [activeAnimeList, setActiveAnimeList] = useState(null);
+    
     const exibiçãoDeAnimes = videos.filter((anime => {
         
         const videosFiltrados =  anime.titulo.toLowerCase().includes(filtraMomentoEpico.toLowerCase()); //Este código cria uma nova lista de vídeos chamada videosFiltrados usando o método filter() do JavaScript. Ele filtra os vídeos da lista videos e retorna apenas aqueles cujo título contém a string filtraMomentoEpico. Para fazer a comparação, o método toLowerCase() é usado tanto no título do vídeo quanto na string filtraMomentoEpico, convertendo ambos para minúsculas.
@@ -26,23 +28,19 @@ export default function Filtro() {
         SetStartId(start);
         SetEndId(end);
     }
-    
-    
 
-    function filtraAnimeTag (anime) {  //função responsavel por pegar o nome clicado e comparar se existe um anime com aquele nome clicado se sim ele retorna e armazena no estado setfiltraTagAnime.
-        const animes = videos.filter((videos => {
-            return videos.anime === anime
-        }))
-
-        setfiltraTagAnime(animes)
+    function filtraAnimeTag (animeClicado) {  
+        const devolveAnimeFiltrado = videos.filter((anime) => anime.anime === animeClicado); //função responsavel por pegar o nome clicado e comparar se existe um anime com aquele nome clicado se sim ele retorna e armazena no estado setfiltraTagAnime.
+              setfiltraTagAnime(devolveAnimeFiltrado);
+              setActiveAnimeList(animesTags.findIndex((item) => item === animeClicado));
+              
+        
     }
 
     function handleBlur () {
         setFiltraMomentoEpico('');
     };
     
-
-    console.log(animesTags)
 
     return (
 
@@ -56,7 +54,10 @@ export default function Filtro() {
                   ? "rotate(-135deg) "
                   : "rotate(45deg)",
               }}
-              onClick={() => setBotaoTrocaEstado(!botaoTrocaEstado)}
+              onClick={() => {
+                setfiltraTagAnime(videos)
+                setActiveAnimeList(!activeAnimeList)
+                setBotaoTrocaEstado(!botaoTrocaEstado)}}
               class={style.arrowCta}
             ></div>
           </h3>
@@ -65,7 +66,9 @@ export default function Filtro() {
             <section className={style.caixa_Container_Lista_Anime}>
               <div className={style.caixaTagTodos}>
                 <span
-                  onClick={() => setfiltraTagAnime(videos)}
+                  onClick={() => {
+                  setActiveAnimeList(!activeAnimeList)
+                  setfiltraTagAnime(videos)}}
                   className={style.tagTodos}
                 >
                   Todos
@@ -74,18 +77,21 @@ export default function Filtro() {
 
               <div className={style.container_animeLista}>
                 <ul className={style.caixaLista}>
-                  {animesTags.map((anime) => (
+                  {animesTags.map((anime, index) => {
+                    return (
                     <li
-                      onClick={() => {
-                        filtraAnimeTag(anime);
+                        onClick={() => {
+                        setActiveAnimeList(!activeAnimeList)
+                        filtraAnimeTag(anime)
                       }}
-                      className={style.animeLista}
+                      className={index === activeAnimeList ? style.animeListaAtivo : ""}
                     >
                       {anime}
                     </li>
-                  ))}
-                </ul>
-              </div>
+                    );
+                })}
+                </ul>  
+              </div>  
             </section>
           )}
         </div>
