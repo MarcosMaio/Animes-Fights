@@ -2,7 +2,7 @@ import React, {} from 'react'
 import Banner from '../../componentes/Banner';
 import Titulo from '../../componentes/Titulo';
 import Filtro from 'componentes/Filtro';
-import Scroll from 'componentes/Scroll/Scroll';
+import Scroll from 'componentes/Scroll';
 
 
 export default function Inicio() {

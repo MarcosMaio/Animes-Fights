@@ -16,21 +16,22 @@
     width: 350px;
     padding: 0 0 1em 0;
     background-color: var(--cinza);
-    border: 4px solid var(--preto-escuro);
+    border: 4px solid var(--preto);
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
     transform: matrix(1, 0, 0, 1, 0, -20);
 }
 
 .capa {
     width: 100%;
     height: 350px;
-    border: 4px solid var(--preto-escuro);
+    border: 4px solid var(--preto);
 }
 
 
 
 .capa:hover {
     border: none;
-    
 }
 
 .container h2,
