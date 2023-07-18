@@ -134,9 +134,3 @@ export default function Filtro() {
       </section>
     );
 }
-
-/* <button class={style.more_btn}>
-                  <span class={style.more_dot}></span>
-                  <span class={style.more_dot}></span>
-                  <span class={style.more_dot}></span>
-      </button>*/
