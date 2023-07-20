@@ -17,7 +17,7 @@ export default function Player() {
 
     return (
     <main>
-        <Banner imagem={"player"} />
+        <Banner imagem={"anime-two"} />
         <Titulo>
             <h1>Player</h1>
         </Titulo> 

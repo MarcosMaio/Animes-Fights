@@ -10,7 +10,7 @@ export default function Favoritos() {
     
     return (
         <main>
-            <Banner imagem="favoritos" />
+            <Banner imagem="anime-two" />
                 <Titulo>
                     <h1>Meus Favoritos</h1>
                 </Titulo>
